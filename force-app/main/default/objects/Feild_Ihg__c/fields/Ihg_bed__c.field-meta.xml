@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ihg_bed__c</fullName>
+    <label>Ihg bed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NK</fullName>
+                <default>false</default>
+                <label>NK</label>
+            </value>
+            <value>
+                <fullName>NQQ</fullName>
+                <default>false</default>
+                <label>NQQ</label>
+            </value>
+            <value>
+                <fullName>SNK</fullName>
+                <default>false</default>
+                <label>SNK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
